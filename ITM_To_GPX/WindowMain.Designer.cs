@@ -36,9 +36,9 @@
             // 
             // ListBoxOpened
             // 
-            this.ListBoxOpened.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.ListBoxOpened.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ListBoxOpened.FormattingEnabled = true;
             this.ListBoxOpened.Location = new System.Drawing.Point(12, 12);
             this.ListBoxOpened.Name = "ListBoxOpened";
@@ -52,7 +52,7 @@
             this.ButtonOpen.Name = "ButtonOpen";
             this.ButtonOpen.Size = new System.Drawing.Size(75, 24);
             this.ButtonOpen.TabIndex = 1;
-            this.ButtonOpen.Text = "Datei öffnen";
+            this.ButtonOpen.Text = "Open File";
             this.ButtonOpen.UseVisualStyleBackColor = true;
             this.ButtonOpen.Click += new System.EventHandler(this.ButtonOpen_Click);
             // 
@@ -63,7 +63,7 @@
             this.ButtonConvert.Name = "ButtonConvert";
             this.ButtonConvert.Size = new System.Drawing.Size(75, 24);
             this.ButtonConvert.TabIndex = 2;
-            this.ButtonConvert.Text = "Konvertieren";
+            this.ButtonConvert.Text = "Convert";
             this.ButtonConvert.UseVisualStyleBackColor = true;
             this.ButtonConvert.Click += new System.EventHandler(this.ButtonConvert_Click);
             // 
@@ -74,7 +74,7 @@
             this.ButtonDelete.Name = "ButtonDelete";
             this.ButtonDelete.Size = new System.Drawing.Size(75, 24);
             this.ButtonDelete.TabIndex = 3;
-            this.ButtonDelete.Text = "Entfernen";
+            this.ButtonDelete.Text = "Remove File";
             this.ButtonDelete.UseVisualStyleBackColor = true;
             this.ButtonDelete.Click += new System.EventHandler(this.ButtonDelete_Click);
             // 

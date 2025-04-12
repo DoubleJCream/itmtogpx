@@ -72,7 +72,11 @@ namespace ITM_To_GPX
                     foreach (ZipEntry TmpEntry in TmpFile)
                     {
                         //Bis eine den namen ituser.poi hat
-                        if (TmpEntry.IsFile && TmpEntry.Name == "ituser.poi\0")
+                        //Search for ituser.poi file
+                        //Originally this was the following code;
+                        //if (TmpEntry.IsFile && TmpEntry.Name == "ituser.poi\0")
+                        //Not sure why it was coded like that since it never finds the file;
+                        if (TmpEntry.IsFile && TmpEntry.Name == "ituser.poi")
                         {
                             //Wenn das so ist, dann hole dir einen Stream auf dieses File                           
                             Stream TmpFileStream = TmpFile.GetInputStream(TmpEntry);
